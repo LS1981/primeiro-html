@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu HTML</title>
+</head>
+
+<body>
+    <h1 id="inicio">Minha Página sobre HTML</h1>
+    <hr>
+    <ul>
+        <li><a href="#tags">Tags</a></li>
+        <li><a href="#texto">Tipografia - textos</a></li>
+        <li><a href="#lista">Listas</a></li>
+        <li><a href="#link">Links</a></li>
+    </ul>
+
+    <p>HTML é a linguagem de marcação padrão para a criação de páginas da Web. </p>
+    <p>Ele consiste em três partes:</p>
+    <ul>
+        <li>tag <strong>html</strong>: tudo que tiver dentro dessa tag é html.</li>
+        <li>tag <strong>head</strong> que é o cabeçalho, tudo que é carregado antes de aparecer para o usuário</li>
+        <li>tag <strong>body</strong>: tudo que tiver entre o body são coisas que vão aparecer para o usuário.</li>
+    </ul>
+
+    <h2 id="tags"><strong>Tags</strong> - <small><a href="#inicio">[voltar]</a></small></h2>
+
+    <p>São elementos usados para estruturar e organizar o conteúdo de uma página web.
+        Funcionam como marcadores, indicando ao navegador o que é um título, um parágrafo, uma imagem, um link, etc.
+        Algumas tags não possuem fechamento("/>") - (img - br> - hr> - input>) - são chamadas de tags vazias ou
+        self-closing.</p>
+    <p><strong>Exemplos</strong></p>
+    <p><strong>Estrutura Básica</strong></p>
+    <p>html - head - title - body</p>
+
+    <p><strong>Texto</strong></p>
+    <ul>
+        <li>Título - h1 até h6</li>
+        <li>Parágrafo - p</li>
+        <li>Negrito - strong.</li>
+        <li>Ênfase - em.</li>
+        <li>Itálico - i.</li>
+    </ul>
+
+    <p><strong>Links</strong></p>
+    <ul>
+        <li>a → Link</li>
+        <li>img → Imagem</li>
+        <li>video</li>
+        <li>audio</li>
+    </ul>
+
+    <p><strong>Atributos das Tags</strong></p>
+    <p>As tags possuem atributos que são propriedades/informações que uma tag pode ter – temos as globais e específicas
+        de cada tag.
+        Estrutura do atributo:<code>&lt;tag atributo = “valor”&gt;</code>
+        - ex: <code>&lt;strong id= “titulo”> Meu HTML /strong&gt;</code>
+    </p>
+    <p><strong>Globais:</strong> id; class; style; title; hidden; data-* </p>
+    <p><strong>Específicas:</strong> href; src; alt; type; placeholder; disabled </p>
+
+    <h2 id="texto"><strong>Tipografia - textos</strong> - <small><a href="#inicio">[voltar]</a></small></h2>
+
+
+    <p>Conjunto de elementos que definem a apresentação do texto, como tipo de fonte, tamanho, estilo (itálico),
+        espaçamento e alinhamento.
+        No HTML, a tipografia é definida principalmente por tags semânticas de texto e CSS (estilização)</p>
+    <p><strong>Títulos:</strong> h1 até h6 - h1:título e h2:subtítulo </p>
+    <p><strong>Parágrafo:</strong><code>&lt;p&gt;</code> - define os blocos de texto</p>
+    <p><strong>Ênfase e importância:</strong><code>&lt;em&gt;</code> - ênfase e <code>&lt;strong&gt;</code> - negrito
+    </p>
+
+
+    <h2 id="lista"><strong>Listas</strong> - <small><a href="#inicio">[voltar]</a></small></h2>
+
+    <p>Elementos usados para organizar informações em sequência ou agrupamentos. Servem para organizar conteúdo,
+        melhorar legibilidade,
+        estruturar menus, criar navegação e exibir etapas ou itens. Existem a lista Ordenada, a Não Ordenada e a de
+        Definição.</p>
+    <p><strong>Lista Ordenada (ol):</strong> Quando a ordem importa. Usado para passo a passo, ranking, sequência. </p>
+    <p><strong>Atributos importantes:</strong><strong> type</strong> define o tipo de marcador -
+        <code>&lt;ol type="A"&gt;</code>/ <strong>start</strong> define número inicial -
+        <code>&lt;ol start="5"&gt;</code>
+    </p>
+    <p><code>&lt;ol&gt;</code></p>
+    <p><code>&lt;li&gt;</code> Estudar HTML <code>&lt;/li&gt;</code></p>
+    <p><code>&lt;li&gt;</code> Estudar CSS <code>&lt;/li&gt;</code></p>
+    <p><code>&lt;ol&gt;</code></p>
+
+
+    <p><strong>Lista Não Ordenada (ul):</strong> Usado quando a ordem não importa. Usado para agrupamento simples. </p>
+
+    <p><code>&lt;ul&gt;</code></p>
+    <p><code>&lt;li&gt;</code> Maçã <code>&lt;/li&gt;</code></p>
+    <p><code>&lt;li&gt;</code> Banana <code>&lt;/li&gt;</code></p>
+    <p><code>&lt;ul&gt;</code></p>
+
+    <h2 id="link"><strong>Links</strong> - <small><a href="#inicio">[voltar]</a></small></h2>
+
+
+    <p>Elementos que permitem navegar entre páginas, ir para outros sites, ir para arquivos, ir para partes específicas
+        da mesma página,
+        enviar e-mail, iniciar ligações. São criados com a tag <code>&lt;a&gt;</code>.</p>
+    <p><code>&lt;a href="https://google.com"&gt;</code>Ir para o Google<code>&lt;/a&gt;</code> </p>
+    <p><strong>Atributos Importantes</strong></p>
+    <p>→ href (obrigatório) – define o destino do link que pode ser externo e interno.</p>
+    <p><strong>Externo:</strong><code>&lt;a href= "https://www.google.com"&gt;</code>Google<code>&lt;/a&gt;</code></p>
+    <p><strong>Interno:</strong><code>&lt;a href="contato.html&gt;</code>Contato<code>&lt;/a&gt;</code></p>
+
+
+
+</body>
+
+</html>
