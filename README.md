@@ -1,4 +1,4 @@
-# Meu Primeiro Projeto HTML
+# Meu Primeiro Projeto HTML - Alura 
 
 A página foi criada como parte dos meus estudos em desenvolvimento front-end e contém exemplos básicos de:
 
