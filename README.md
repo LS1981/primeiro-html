@@ -1,4 +1,4 @@
-# Meu Primeiro Projeto HTML - Alura 
+# Meu Primeiro Projeto HTML - Curso Introdução ao HTML - Dio
 
 A página foi criada como parte dos meus estudos em desenvolvimento front-end e contém exemplos básicos de:
 
